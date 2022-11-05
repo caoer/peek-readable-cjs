@@ -1,9 +1,9 @@
 import { assert, expect } from 'chai';
 import { EventEmitter } from 'node:events';
-import fs from 'node:fs';
 import { Readable } from 'node:stream';
 import { EndOfStreamError, StreamReader } from '../lib/index.js';
 import { SourceStream } from './util.js';
+import * as fs from "fs";
 
 describe('StreamReader', () => {
 
